@@ -1,0 +1,43 @@
+* {
+  font-family: courier;
+  padding: 0 ;
+  margin: 0;
+  box-sizing: border-box;
+}
+.tittle::after {
+  content: '';
+  width: 10%;
+  height: 5px;
+  background: #000 ;
+  display: block;
+}
+.tittle{
+  margin-left: 10px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
+figure p {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  line-height: 1.5;
+  /*background-color: #000;*/
+}
+img {
+  width: 300px;
+  height: 300px;
+}
